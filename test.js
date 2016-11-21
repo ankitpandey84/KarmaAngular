@@ -3,7 +3,7 @@ describe('Hello World example', function() {
 beforeEach(module('myApp'));
 
 var HelloWorldController,
-scope;
+ scope;
 
 beforeEach(inject(function ($rootScope, $controller) {
 scope = $rootScope.$new();
